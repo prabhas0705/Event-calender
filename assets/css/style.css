@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.modal-body {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+/* Mini Calendar Styles */
+#mini-calendar {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#mini-calendar .fc-header-toolbar {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem !important;
+}
+
+#mini-calendar .fc-view-container {
+    font-size: 0.9rem;
+}
+
+#mini-calendar .fc-day-number {
+    font-size: 0.8rem;
+    padding: 2px;
+}
+
+#mini-calendar .fc-event {
+    font-size: 0.7rem;
+    padding: 1px 2px;
+    margin: 1px 0;
+}
+
+#mini-calendar .fc-toolbar h2 {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* Mini Calendar Dropdown Styles */
+#miniMonthSelect, #miniYearSelect {
+    display: inline-block;
+    width: auto;
+    margin: 0 2px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#miniMonthSelect:hover, #miniYearSelect:hover {
+    border-color: #80bdff;
+}
+
+#miniMonthSelect:focus, #miniYearSelect:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Recurring Event Styles */
+.recurring-event {
+    position: relative;
+}
+
+.recurring-icon {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.8);
+}
